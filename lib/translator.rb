@@ -19,10 +19,13 @@ def get_japanese_emoticon(file_path, e_emo)
   dictionary = load_library("./lib/emoticons.yml")
   dictionary.each do |key, value|
    if e_emo == value[:english] 
-     value[:japanese] 
+   message =   value[:japanese] 
    end 
-   "Sorry, that emoticon was not found"
  end 
+ if message == String
+  message 
+else "I'm sorry"
+end
 
 end 
 
