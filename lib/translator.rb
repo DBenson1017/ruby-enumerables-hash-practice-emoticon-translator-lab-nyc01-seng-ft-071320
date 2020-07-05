@@ -19,7 +19,7 @@ def get_japanese_emoticon(file_path, e_emo)
   dictionary = load_library("./lib/emoticons.yml")
 
   dictionary.each do |key, value|
-    if key[:english] == e_emo =
+    if key[:english] == e_emo 
       return dictionary[key][:japanese]
       binding.pry
     else 
