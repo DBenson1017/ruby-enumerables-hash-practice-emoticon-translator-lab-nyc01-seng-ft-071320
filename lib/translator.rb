@@ -26,16 +26,8 @@ def get_japanese_emoticon(file_path, e_emo)
 end 
 
 
-
-=begin
-
-
-
-
-
-
 def get_english_meaning
 
 end
 
-=end 
+
