@@ -13,7 +13,7 @@ emoticon_ref = YAML.load_file("./lib/emoticons.yml")
   end 
 emo_dic
 end
-=begin
+
 
 def get_japanese_emoticon(file_path, e_emo)
   dictionary = load_library("./lib/emoticons.yml")
@@ -21,11 +21,13 @@ def get_japanese_emoticon(file_path, e_emo)
    if e_emo == value[:english] return value[:japanese] 
    end 
    "Sorry, that emoticon was not found"
+
+
 end 
 
 
 
-
+=begin
 
 
 
