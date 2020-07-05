@@ -32,6 +32,7 @@ def get_english_meaning(j_emo)
       if key[:japanese] == j_emo 
         return key 
       end 
+    end 
 
 end
 
