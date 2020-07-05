@@ -13,7 +13,7 @@ emoticon_ref = YAML.load_file("./lib/emoticons.yml")
   end 
 emo_dic
 end
-
+=begin
 
 def get_japanese_emoticon(file_path, e_emo)
   dictionary = load_library("./lib/emoticons.yml")
@@ -27,7 +27,7 @@ end
 
 
 
-=begin
+
 
 
 
