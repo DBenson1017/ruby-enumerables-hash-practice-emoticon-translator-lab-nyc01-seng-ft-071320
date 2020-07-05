@@ -21,10 +21,11 @@ def get_japanese_emoticon(file_path, e_emo)
   dictionary.each do |key, value|
     if dictonary[key][:english] == e_emo 
       return dictionary[key][:japanese]
-      binding.pry
     else 
       return "Sorry, that emoticon was not found"
     end 
+    binding.pry 
+    p 'hi'
     end 
 end
 
