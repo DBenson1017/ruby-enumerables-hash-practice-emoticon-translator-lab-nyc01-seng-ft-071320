@@ -31,7 +31,7 @@ def get_english_meaning(file_path, j_emo)
     dictionary.each do |key, value|
         return key if key[:japanese] == j_emo 
     end 
-
+"Sorry, that emoticon was not found"
 end
 
 
