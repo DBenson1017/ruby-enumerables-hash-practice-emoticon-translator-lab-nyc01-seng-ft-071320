@@ -29,7 +29,7 @@ end
 def get_english_meaning(file_path, j_emo)
    dictionary = load_library("./lib/emoticons.yml")
     dictionary.each do |key, value|
-        return key if "#{key}"[:japanese] == j_emo 
+        return key if key[:japanese] == j_emo 
       end 
     end 
 
